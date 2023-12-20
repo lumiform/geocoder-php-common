@@ -1,7 +1,7 @@
 {
-    "name": "lumiform/php-common",
+    "name": "lumiform/geocoder-php-common",
     "type": "library",
-    "description": "Common files for PHP Geocoder",
+    "description": "Common files for PHP Geocoder (fork of willdurand/geocoder)",
     "keywords": [
         "geocoder",
         "geocoding",
