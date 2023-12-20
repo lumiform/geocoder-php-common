@@ -42,10 +42,6 @@ final class AdminLevelCollection implements \IteratorAggregate, \Countable
 
             $this->checkLevel($level);
 
-            if ($this->has($level)) {
-                throw new InvalidArgument(sprintf('Administrative level %d is defined twice', $level));
-            }
-
             $this->adminLevels[$level] = $adminLevel;
         }
 
